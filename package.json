@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-mx",
+  "version": "1.0.0",
+  "description": "MX's eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxenabled/eslint-config-mx.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Brandon Beeks <brandon@beeks.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mxenabled/eslint-config-mx/issues"
+  },
+  "homepage": "https://github.com/mxenabled/eslint-config-mx#readme"
+}
