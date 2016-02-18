@@ -160,7 +160,7 @@ module.exports = {
     "space-before-blocks": 2,
     "space-before-function-paren": 2,
     "space-in-parens": [2, "never"],
-    "space-infix-ops": 0,
+    "space-infix-ops": 2,
     "space-return-throw-case": 2,
     "space-unary-ops": 2,
     "spaced-comment": 0,
