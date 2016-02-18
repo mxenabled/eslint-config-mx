@@ -49,7 +49,7 @@ module.exports = {
     "block-scoped-var": 0,
     "consistent-return": 2,
     "curly": 0,
-    "default-case": 2,
+    "default-case": 0,
     "dot-notation": 0,
     "dot-location": [2, "property"],
     "eqeqeq": [2, "smart"],
