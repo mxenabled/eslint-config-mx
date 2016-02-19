@@ -19,5 +19,16 @@
   "bugs": {
     "url": "https://github.com/mxenabled/eslint-config-mx/issues"
   },
-  "homepage": "https://github.com/mxenabled/eslint-config-mx#readme"
+  "homepage": "https://github.com/mxenabled/eslint-config-mx#readme",
+  "peerDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-eslint": "^5.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-react": "^6.0.0",
+    "eslint": "^2.0.0",
+    "eslint-loader": "^1.0.0",
+    "eslint-plugin-react": "^3.0.0",
+    "webpack": "^1.0.0"
+  }
 }

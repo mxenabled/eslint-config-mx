@@ -18,3 +18,6 @@ If you need to apply any custom rules, simply add them to your `.eslintrc` file 
   }
 }
 ```
+
+## peerDependencies
+In an attempt to centralize our build tool versions, this includes `peerDependencies` for related build tools. All projects using these eslint configs/rules should meet these peerDependencies.
