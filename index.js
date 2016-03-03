@@ -155,6 +155,7 @@ module.exports = {
     "radix": 2,
     "react/display-name": [2, {"acceptTranspilerName": true}],
     "react/jsx-boolean-value": [2, "always"],
+    "react/jsx-max-props-per-line": [2, { "maximum" 3 }],
     "react/jsx-no-undef": 2,
     "react/jsx-sort-prop-types": [2, {"ignoreCase": true}],
     "react/jsx-sort-props": 2,
