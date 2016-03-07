@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mx",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "MX's eslint config",
   "main": "index.js",
   "scripts": {
