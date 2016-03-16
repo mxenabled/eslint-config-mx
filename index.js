@@ -57,7 +57,7 @@ module.exports = {
     "no-array-constructor": 2,
     "no-caller": 2,
     "no-catch-shadow": 0,
-    "no-console": [2, {"allow": ["warn", "error"]}],
+    "no-console": [1, {"allow": ["warn", "error"]}],
     "no-constant-condition": 2,
     "no-continue": 2,
     "no-debugger": 2,
