@@ -153,7 +153,7 @@ module.exports = {
     "quote-props": 0,
     "quotes": [2, "single", "avoid-escape"],
     "radix": 2,
-    "react/display-name": [2, {"ignoreTranspilerName": true}],
+    "react/display-name": [2, {"ignoreTranspilerName": false}],
     "react/jsx-boolean-value": [2, "always"],
     "react/jsx-indent": [2, 2],
     "react/jsx-indent-props": [2, 2],
