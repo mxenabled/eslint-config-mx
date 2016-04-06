@@ -160,7 +160,6 @@ module.exports = {
     "react/jsx-max-props-per-line": [2, {"maximum": 3}],
     "react/jsx-no-undef": 2,
     "react/jsx-sort-prop-types": [2, {"ignoreCase": true}],
-    "react/jsx-sort-props": 2,
     "react/jsx-uses-vars": 2,
     "react/no-did-mount-set-state": 0,
     "react/no-did-update-set-state": 2,
@@ -187,6 +186,7 @@ module.exports = {
         ]
       }
     }],
+    "react/sort-prop-types": 2,
     "react/wrap-multilines": 2,
     "semi": [2, "always"],
     "semi-spacing": [2, {"before": false, "after": true}],
