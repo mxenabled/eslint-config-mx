@@ -2,6 +2,9 @@
 ==================
 - [fix] enable [`jsx-sort-props`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md) rule ([accidentally deleted](https://github.com/mxenabled/eslint-config-mx/commit/32b354f146513a812461e3431cb8b2fe6b9bfff6))
 - [fix] [`sort-prop-types`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-prop-types.md) rule
+
+1.2.4 / 2016-04-07
+==================
 - [fix] disable [`no-magic-numbers`](http://eslint.org/docs/rules/no-magic-numbers) rule due to false positives
 
 1.2.0 / 2016-04-06
