@@ -90,7 +90,7 @@ module.exports = {
     "no-lone-blocks": 2,
     "no-lonely-if": 2,
     "no-loop-func": 2,
-    "no-magic-numbers": [2, { "enforceConst": true, "ignoreArrayIndexes": true, "ignore": [0] }],
+    "no-magic-numbers": 0,
     "no-mixed-requires": 2,
     "no-mixed-spaces-and-tabs": 2,
     "no-multi-spaces": 2,
