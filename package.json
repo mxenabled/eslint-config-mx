@@ -20,7 +20,7 @@
     "url": "https://github.com/mxenabled/eslint-config-mx/issues"
   },
   "homepage": "https://github.com/mxenabled/eslint-config-mx#readme",
-  "peerDependencies": {
+  "dependencies": {
     "babel-core": "^6.7.4",
     "babel-eslint": "^6.0.2",
     "babel-loader": "^6.2.2",
@@ -29,7 +29,7 @@
     "babel-preset-react": "^6.5.0",
     "eslint": "^2.7.0",
     "eslint-loader": "^1.3.0",
-    "eslint-plugin-react": "^4.2.3",
+    "eslint-plugin-react": "^5.0.0",
     "webpack": "^1.12.14"
   }
 }
