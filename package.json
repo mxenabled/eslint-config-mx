@@ -20,7 +20,7 @@
     "url": "https://github.com/mxenabled/eslint-config-mx/issues"
   },
   "homepage": "https://github.com/mxenabled/eslint-config-mx#readme",
-  "dependencies": {
+  "peerDependencies": {
     "babel-core": "^6.7.4",
     "babel-eslint": "^6.0.2",
     "babel-loader": "^6.2.2",
