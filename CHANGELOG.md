@@ -1,3 +1,16 @@
+1.2.7 / 2016-04-27
+==================
+- [minor] enable [`react/require-render-return`] (https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-render-return.md)
+- [minor] enable [`react/jsx-pascal-case`] (https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md)
+- [minor] enable [`react/jsx-space-before-closing`] (https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md)
+- [minor] enable [`react/jsx-closing-bracket-location`] (https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md)
+- [minor] enable [`arrow-spacing`] (http://eslint.org/docs/rules/arrow-spacing)
+- [minor] enable [`no-confusing-arrow`] (http://eslint.org/docs/rules/no-confusing-arrow)
+
+1.2.6 / 2016-04-21
+==================
+- [peer deps] update `eslint-plugin-react`
+
 1.2.5 / 2016-04-07
 ==================
 - [fix] enable [`jsx-sort-props`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md) rule ([accidentally deleted](https://github.com/mxenabled/eslint-config-mx/commit/32b354f146513a812461e3431cb8b2fe6b9bfff6))
