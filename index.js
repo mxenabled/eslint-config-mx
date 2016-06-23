@@ -179,12 +179,19 @@ module.exports = {
         'lifecycle',
         'everything-else',
         'rendering',
+        'responsive',
         'style'
       ],
       groups: {
         rendering: [
           '/^render.+$/',
           'render'
+        ],
+        responsive: [
+          'breakpoints',
+          'offsets',
+          'orders',
+          'spans'
         ],
         style: [
           'styles'
