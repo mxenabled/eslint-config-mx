@@ -118,7 +118,6 @@ module.exports = {
     "no-regex-spaces": 2,
     "no-reserved-keys": 0,
     "no-restricted-modules": 0,
-    "no-return-assign": 2,
     "no-script-url": 2,
     "no-self-compare": 2,
     "no-sequences": 2,
