@@ -172,7 +172,6 @@ module.exports = {
     "react/no-unknown-property": 2,
     "react/prop-types": [2, { "ignore": ["style", "children", "params"] }],
     "react/react-in-jsx-scope": 2,
-    "react/require-extension": [2, { "extensions": [".js", ".jsx"] }],
     "react/self-closing-comp": 2,
     "react/sort-comp": [2, {
       order: [
