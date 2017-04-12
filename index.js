@@ -165,6 +165,7 @@ module.exports = {
     "react/jsx-closing-bracket-location": 2,
     "react/jsx-space-before-closing": 2,
     "react/jsx-pascal-case": 2,
+    "react/jsx-wrap-multilines": 2,
     "react/no-did-mount-set-state": 0,
     "react/no-did-update-set-state": 2,
     "react/no-multi-comp": 0,
@@ -198,7 +199,6 @@ module.exports = {
       }
     }],
     "react/sort-prop-types": [2, {"ignoreCase": true}],
-    "react/wrap-multilines": 2,
     "semi": [2, "always"],
     "semi-spacing": [2, {"before": false, "after": true}],
     "sort-vars": 2,
