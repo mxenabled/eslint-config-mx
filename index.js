@@ -161,6 +161,7 @@ module.exports = {
     "react/jsx-max-props-per-line": [2, {"maximum": 3}],
     "react/jsx-no-undef": 2,
     "react/jsx-sort-props": 2,
+    "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
     "react/jsx-closing-bracket-location": 2,
     "react/jsx-space-before-closing": 2,
