@@ -138,6 +138,7 @@ module.exports = {
     "no-unneeded-ternary": 2,
     "no-unreachable": 2,
     "no-unused-expressions": 2,
+    "no-unused-prop-types": 2,
     "no-unused-vars": 2,
     "no-use-before-define": 0,
     "no-var": 2,
