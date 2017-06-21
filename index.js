@@ -137,7 +137,7 @@ module.exports = {
     "no-unexpected-multiline": 2,
     "no-unneeded-ternary": 2,
     "no-unreachable": 2,
-    "no-unused-expressions": 2,
+    "no-unused-expressions": [2, {"allowShortCircuit": true}],
     "no-unused-vars": 2,
     "no-use-before-define": 0,
     "no-var": 2,
