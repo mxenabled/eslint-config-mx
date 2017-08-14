@@ -49,7 +49,7 @@ module.exports = {
     "key-spacing": [2, {"beforeColon": false, "afterColon": true}],
     "keyword-spacing": 2,
     "linebreak-style": 2,
-    "lines-around-comment": [2, {"beforeBlockComment": true, "beforeLineComment": false}],
+    "lines-around-comment": [2, {"allowBlockStart": true, "beforeBlockComment": true, "beforeLineComment": false}],
     "max-nested-callbacks": [2, 3],
     "new-cap": 0,
     "new-parens": 2,
