@@ -164,7 +164,7 @@ module.exports = {
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
     "react/jsx-closing-bracket-location": 2,
-    "react/jsx-space-before-closing": 2,
+    "react/jsx-tag-spacing": [2, {"beforeSelfClosing": "always"}],
     "react/jsx-pascal-case": 2,
     "react/jsx-wrap-multilines": 2,
     "react/no-did-mount-set-state": 0,
