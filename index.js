@@ -148,7 +148,7 @@ module.exports = {
     "object-shorthand": [2, "always"],
     "one-var": [2, "never"],
     "operator-assignment": [2, "always"],
-    "operator-linebreak": [2, "after"],
+    "operator-linebreak": [2, "before"],
     "padded-blocks": [2, "never"],
     "prefer-const": 2,
     "quote-props": 0,
