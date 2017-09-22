@@ -50,7 +50,7 @@ module.exports = {
     "keyword-spacing": 2,
     "linebreak-style": 2,
     "lines-around-comment": [2, {"allowBlockStart": true, "beforeBlockComment": true, "beforeLineComment": false}],
-    "max-len": 100,
+    "max-len": [2, {"code": 100}],
     "max-nested-callbacks": [2, 3],
     "new-cap": 0,
     "new-parens": 2,
