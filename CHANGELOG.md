@@ -1,3 +1,7 @@
+1.6.0 / 2017-10-26
+==================
+- [minor] enable [`no-undef`] (https://eslint.org/docs/rules/no-undef)
+
 1.2.7 / 2016-04-27
 ==================
 - [minor] enable [`react/require-render-return`] (https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-render-return.md)
