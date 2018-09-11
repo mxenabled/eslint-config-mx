@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/mxenabled/eslint-config-mx#readme",
   "peerDependencies": {
-    "eslint-plugin-react": "^7.11.1",
     "babel-eslint": "^8.2.6"
   }
 }
