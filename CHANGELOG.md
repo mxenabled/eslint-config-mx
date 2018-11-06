@@ -1,3 +1,7 @@
+1.6.1 / 2018-11-6
+==================
+- [fix] disable [`react/no-did-update-set-state`] - This is safe (https://reactjs.org/docs/react-component.html#componentdidupdate)
+
 1.6.0 / 2017-10-26
 ==================
 - [minor] enable [`no-undef`] (https://eslint.org/docs/rules/no-undef)

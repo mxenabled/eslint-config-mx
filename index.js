@@ -169,7 +169,7 @@ module.exports = {
     "react/jsx-pascal-case": 2,
     "react/jsx-wrap-multilines": 2,
     "react/no-did-mount-set-state": 0,
-    "react/no-did-update-set-state": 2,
+    "react/no-did-update-set-state": 0,
     "react/no-multi-comp": 0,
     "react/no-unknown-property": 2,
     "react/prop-types": [2, { "ignore": ["style", "children", "params"] }],
