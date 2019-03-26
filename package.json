@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mx",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "MX's eslint config",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "eslint",
     "eslintconfig"
   ],
-  "author": "Brandon Beeks <brandon@beeks.me>",
+  "author": "MX Team",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mxenabled/eslint-config-mx/issues"
