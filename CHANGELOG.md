@@ -1,3 +1,9 @@
+1.7.0 / 2019-3-26
+- [feature] add [`react/no-direct-mutation-state`] (https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-direct-mutation-state.md) as warning
+- [feature] add [`react/no-unused-state`] (https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-state.md) as warning
+- [feature] add [`react/no-unused-prop-types`] (https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md) as warning
+
+
 1.6.0 / 2017-10-26
 ==================
 - [minor] enable [`no-undef`] (https://eslint.org/docs/rules/no-undef)
