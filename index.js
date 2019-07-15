@@ -1,31 +1,29 @@
 module.exports = {
-  "parser": "babel-eslint",
-  "env": {
-    "browser": true,
-    "node": true,
-    "es6": true
+  parser: "babel-eslint",
+  env: {
+    browser: true,
+    node: true,
+    es6: true
   },
-  "plugins": [
-    "react"
-  ],
-  "settings": {
-    "react": {
-      "pragma": "React"
+  plugins: ["react"],
+  settings: {
+    react: {
+      pragma: "React"
     }
   },
-  "parserOptions": {
-    "ecmaVersion": 6,
-    "ecmaFeatures": {
-      "jsx": true
+  parserOptions: {
+    ecmaVersion: 6,
+    ecmaFeatures: {
+      jsx: true
     }
   },
-  "rules": {
+  rules: {
     "accessor-pairs": 0,
     "array-bracket-spacing": [2, "never"],
-    "arrow-spacing": [2, {"before": true, "after": true }],
+    "arrow-spacing": [2, { before: true, after: true }],
     "block-scoped-var": 0,
     "brace-style": 2,
-    "camelcase": 0,
+    camelcase: 0,
     "comma-dangle": 2,
     "comma-spacing": 2,
     "comma-style": 2,
@@ -33,24 +31,31 @@ module.exports = {
     "consistent-return": 2,
     "consistent-this": 0,
     "constructor-super": 2,
-    "curly": 0,
+    curly: 0,
     "default-case": 0,
     "dot-location": [2, "property"],
     "dot-notation": 0,
     "eol-last": 0,
-    "eqeqeq": [2, "smart"],
+    eqeqeq: [2, "smart"],
     "func-names": 0,
     "func-style": 0,
-    "generator-star-spacing": [2, {"before": false, "after": true}],
+    "generator-star-spacing": [2, { before: false, after: true }],
     "guard-for-in": 2,
     "handle-callback-err": 0,
-    "indent": [2, 2, {"SwitchCase": 1}],
+    indent: [2, 2, { SwitchCase: 1 }],
     "jsx-quotes": [2, "prefer-single"],
-    "key-spacing": [2, {"beforeColon": false, "afterColon": true}],
+    "key-spacing": [2, { beforeColon: false, afterColon: true }],
     "keyword-spacing": 2,
     "linebreak-style": 2,
-    "lines-around-comment": [2, {"allowBlockStart": true, "beforeBlockComment": true, "beforeLineComment": false}],
-    "max-len": [2, {"code": 100}],
+    "lines-around-comment": [
+      2,
+      {
+        allowBlockStart: true,
+        beforeBlockComment: true,
+        beforeLineComment: false
+      }
+    ],
+    "max-len": [2, { code: 100 }],
     "max-nested-callbacks": [2, 3],
     "new-cap": 0,
     "new-parens": 2,
@@ -59,8 +64,8 @@ module.exports = {
     "no-array-constructor": 2,
     "no-caller": 2,
     "no-catch-shadow": 0,
-    "no-confusing-arrow": [2, {"allowParens": true}],
-    "no-console": [2, {"allow": ["warn", "error"]}],
+    "no-confusing-arrow": [2, { allowParens: true }],
+    "no-console": [2, { allow: ["warn", "error"] }],
     "no-constant-condition": 2,
     "no-continue": 2,
     "no-debugger": 2,
@@ -153,19 +158,19 @@ module.exports = {
     "padded-blocks": [2, "never"],
     "prefer-const": 2,
     "quote-props": 0,
-    "quotes": [2, "single", "avoid-escape"],
-    "radix": 2,
-    "react/display-name": [2, {"ignoreTranspilerName": false}],
+    quotes: [2, "single", "avoid-escape"],
+    radix: 2,
+    "react/display-name": [2, { ignoreTranspilerName: false }],
     "react/jsx-boolean-value": [2, "always"],
     "react/jsx-indent": [2, 2],
     "react/jsx-indent-props": [2, 2],
-    "react/jsx-max-props-per-line": [2, {"maximum": 3}],
+    "react/jsx-max-props-per-line": [2, { maximum: 3 }],
     "react/jsx-no-undef": 2,
     "react/jsx-sort-props": 2,
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
     "react/jsx-closing-bracket-location": 2,
-    "react/jsx-tag-spacing": [2, {"beforeSelfClosing": "always"}],
+    "react/jsx-tag-spacing": [2, { beforeSelfClosing: "always" }],
     "react/jsx-pascal-case": 2,
     "react/jsx-wrap-multilines": 2,
     "react/no-direct-mutation-state": 1,
@@ -173,38 +178,31 @@ module.exports = {
     "react/no-did-update-set-state": 2,
     "react/no-multi-comp": 0,
     "react/no-unknown-property": 2,
-    "react/no-unused-state": 1,
-    "react/no-unused-prop-types": 1,
-    "react/prop-types": [2, { "ignore": ["style", "children", "params"] }],
+    "react/no-unused-state": 2,
+    "react/no-unused-prop-types": 2,
+    "react/prop-types": [2, { ignore: ["style", "children", "params"] }],
     "react/react-in-jsx-scope": 2,
     "react/self-closing-comp": 2,
-    "react/sort-comp": [2, {
-      order: [
-        'lifecycle',
-        'everything-else',
-        'rendering',
-        'responsive',
-        'style'
-      ],
-      groups: {
-        rendering: [
-          '/^render.+$/',
-          'render'
+    "react/sort-comp": [
+      2,
+      {
+        order: [
+          "lifecycle",
+          "everything-else",
+          "rendering",
+          "responsive",
+          "style"
         ],
-        responsive: [
-          'breakpoints',
-          'offsets',
-          'orders',
-          'spans'
-        ],
-        style: [
-          'styles'
-        ]
+        groups: {
+          rendering: ["/^render.+$/", "render"],
+          responsive: ["breakpoints", "offsets", "orders", "spans"],
+          style: ["styles"]
+        }
       }
-    }],
-    "react/sort-prop-types": [2, {"ignoreCase": true}],
-    "semi": [2, "always"],
-    "semi-spacing": [2, {"before": false, "after": true}],
+    ],
+    "react/sort-prop-types": [2, { ignoreCase: true }],
+    semi: [2, "always"],
+    "semi-spacing": [2, { before: false, after: true }],
     "sort-vars": 2,
     "space-before-blocks": 2,
     "space-before-function-paren": 2,
@@ -218,6 +216,6 @@ module.exports = {
     "vars-on-top": 2,
     "wrap-iife": 2,
     "wrap-regex": 2,
-    "yoda": 2
+    yoda: 2
   }
 };
