@@ -1,3 +1,7 @@
+# 2.0.1 / 2020-2-4
+
+- [minor] remove [`comma-dangle`](https://eslint.org/docs/rules/comma-dangle)
+
 # 2.0.0 / 2019-7-15
 
 - [major] change [`react/no-direct-mutation-state`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-direct-mutation-state.md) to error

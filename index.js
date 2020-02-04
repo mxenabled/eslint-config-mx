@@ -24,7 +24,6 @@ module.exports = {
     "block-scoped-var": 0,
     "brace-style": 2,
     camelcase: 0,
-    "comma-dangle": 2,
     "comma-spacing": 2,
     "comma-style": 2,
     "computed-property-spacing": 2,
