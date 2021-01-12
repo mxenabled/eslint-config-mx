@@ -76,7 +76,7 @@ module.exports = {
     "no-else-return": 0,
     "no-empty": 2,
     "no-empty-character-class": 2,
-    "no-eq-null": 2,
+    "no-eq-null": 0,
     "no-eval": 2,
     "no-ex-assign": 2,
     "no-extend-native": 2,
