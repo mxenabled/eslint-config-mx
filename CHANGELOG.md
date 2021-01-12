@@ -1,3 +1,7 @@
+# 2.0.2 / 2021-1-12
+
+- [minor] remove [`no-eq-null`](https://eslint.org/docs/rules/no-eq-null)
+
 # 2.0.1 / 2020-2-4
 
 - [minor] remove [`comma-dangle`](https://eslint.org/docs/rules/comma-dangle)
