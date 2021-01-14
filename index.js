@@ -195,7 +195,7 @@ module.exports = {
         groups: {
           rendering: ["/^render.+$/", "render"],
           responsive: ["breakpoints", "offsets", "orders", "spans"],
-          style: ["styles"]
+          style: ["styles", "darkStyles"]
         }
       }
     ],
