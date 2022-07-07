@@ -46,14 +46,7 @@ module.exports = {
     "key-spacing": [2, { beforeColon: false, afterColon: true }],
     "keyword-spacing": 2,
     "linebreak-style": 2,
-    "lines-around-comment": [
-      2,
-      {
-        allowBlockStart: true,
-        beforeBlockComment: true,
-        beforeLineComment: false
-      }
-    ],
+    "lines-around-comment": 0,
     "max-len": [2, { code: 100 }],
     "new-cap": 0,
     "new-parens": 2,
@@ -135,13 +128,13 @@ module.exports = {
     "no-trailing-spaces": 2,
     "no-undef": 2,
     "no-undef-init": 2,
-    "no-undefined": 2,
+    "no-undefined": 0,
     "no-underscore-dangle": 0,
     "no-unexpected-multiline": 2,
     "no-unneeded-ternary": 2,
     "no-unreachable": 2,
     "no-unused-expressions": 2,
-    "no-unused-vars": 2,
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }], // ignore variables that begin with _,
     "no-use-before-define": 0,
     "no-var": 2,
     "no-void": 2,
