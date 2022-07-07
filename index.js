@@ -55,10 +55,8 @@ module.exports = {
       }
     ],
     "max-len": [2, { code: 100 }],
-    "max-nested-callbacks": [2, 3],
     "new-cap": 0,
     "new-parens": 2,
-    "newline-after-var": [2, "always"],
     "no-alert": 2,
     "no-array-constructor": 2,
     "no-caller": 2,
@@ -158,7 +156,6 @@ module.exports = {
     "prefer-const": 2,
     "quote-props": 0,
     quotes: [2, "single", "avoid-escape"],
-    radix: 2,
     "react/display-name": [2, { ignoreTranspilerName: false }],
     "react/jsx-boolean-value": [2, "always"],
     "react/jsx-indent": [2, 2],
