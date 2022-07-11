@@ -1,3 +1,16 @@
+# 3.0.0 / 2022-07-05
+
+- [major] change
+
+  - Update package-lock.json to lockfileVersion 2 format.
+  - Switch deprecated babel-eslint package to latest @babel/eslint-parser.
+  - Update eslint-plugin-react to latest (no breaking changes).
+  - Downstream projects will need to add/update their .eslintrc file to
+    include:
+    ```
+    "parser": "@babel/eslint-parser"
+    ```
+
 # 2.0.2 / 2021-1-12
 
 - [minor] remove [`no-eq-null`](https://eslint.org/docs/rules/no-eq-null)
