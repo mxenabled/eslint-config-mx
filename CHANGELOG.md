@@ -1,3 +1,10 @@
+# 4.0.0 / 2022-07-19
+- [major] change
+  - Greatly reduce individual rules in favor of eslint/react recommended settings
+  - Fix major issues around rules that were being overriden in most projects
+  - Remove any rules that can be resolved or fixed with prettier
+  - Add react hooks package as dependency
+
 # 3.0.0 / 2022-07-05
 
 - [major] change
